@@ -3,18 +3,7 @@
 
 
 class Rectangle():
-    """Definition of Rectangle class
-
-    Args:
-        width: Optional by default 0
-        height: Optional by default 0
-
-    Exceptions:
-        TypeError with msg 'width must be an integer'
-        ValueError with msg 'width must be >= 0'
-        TypeError with msg 'height must be an integer'
-        ValueError with msg 'height must be >= 0'
-    """
+    """Definition of Rectangle class"""
     def __init__(self, width=0, height=0):
         """Initialize Rectangle attributes"""
         self.width = width
