@@ -3,6 +3,6 @@
 
 
 
-class Rectangle:
+class Rectangle():
     """Definition of an empty class Rectangle"""
     pass
