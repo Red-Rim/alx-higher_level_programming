@@ -2,7 +2,7 @@
 """empty class"""
 
 
-class BaseGeometry:
+class BaseGeometry():
     """Return an empty class"""
     pass
 
