@@ -4,5 +4,5 @@
 
 
 class Rectangle:
-    """Definition of an empty class Rectangle"""
+    """Empty class Rectangle"""
     pass
