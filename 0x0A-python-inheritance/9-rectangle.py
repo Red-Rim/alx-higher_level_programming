@@ -4,7 +4,6 @@
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
-
 class Rectangle(BaseGeometry):
     """class building"""
     def __init__(self, width, height):
@@ -19,5 +18,4 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         "return rectangle description"
-        return "{[:s]} {:d}/{:d}".format(self.__class__.__name__,
-                                        self.__width, self.__height)
+        return "{[:s]} {:d}/{:d}".format(self.__class__.__name__,self.__width, self.__height)
