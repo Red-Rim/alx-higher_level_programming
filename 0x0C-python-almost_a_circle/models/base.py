@@ -1,5 +1,5 @@
-#!/user/bin/python3
 #!/usr/bin/python3
+
 """build a class"""
 import json
 
@@ -99,4 +99,3 @@ class Base:
                 return [cls.create(**d) for d in list_dicts]
         except IOError:
             return []
-

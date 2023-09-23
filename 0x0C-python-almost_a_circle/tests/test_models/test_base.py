@@ -20,5 +20,6 @@ class TestBase(unittest.TestCase):
         self.assertAlmostEquals(test3.id, 12)
         self.assertAlmostEquals(test4.id, 4)
 
+
 if __name__=='__main__':
 	unittest.main()
